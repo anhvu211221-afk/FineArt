@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Chillax', sans-serif;  font-optical-sizing: auto;
+font-family: 'Satoshi', sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #e0c68f;
@@ -11,7 +11,9 @@
 
 body{
   background-color: #1f232b;
-}
+ text-align: justify;       /* Aligns text to both the left and right margins */
+  text-wrap: pretty;        /* Dynamically balances the number of words per line */
+  text-justify: inter-word; }
 #logo{
   margin: 5px;
 }
